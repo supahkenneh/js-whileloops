@@ -18,6 +18,12 @@ while (i<10){
 
 /*1. Use a while loop and print out a list of numbers from 1 to 10*/
 
+var i = 0;
+
+while (i<10){
+  i++;
+  console.log(i);
+}
 
 
 /*2. Use a while loop to create the following message:
@@ -28,6 +34,13 @@ while (i<10){
 ...
 ...
 "Now serving 11"*/
+
+var i = 0;
+
+while (i<11){
+  i++;
+  console.log("Now serving " + i);
+}
 
 
 
@@ -40,6 +53,12 @@ while (i<10){
 "I like to binge watch Keeping up with the Kardasians."*/
 
 var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking Dead", "Keeping Up with the Kardasians"];
+
+var i = 0;
+while (tvShows[i]){
+  console.log("I like to binge watch " + tvShows[i] + ".");
+  i++;
+}
 
 
 
@@ -55,7 +74,12 @@ var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking D
 
 */
 
-
+var i = 1;
+while (i<=9){
+  var product = i * 3;
+  console.log(i + " x 3 = " + product);
+  i++;
+}
 
 
 
